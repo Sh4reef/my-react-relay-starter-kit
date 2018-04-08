@@ -33,7 +33,3 @@ When you’re ready to deploy to production, create a minified bundle with
 ```sh
 npm run build
 ```
-  
-<p align='center'>  
-<img src='https://cdn.rawgit.com/facebook/create-react-app/27b42ac/screencast.svg' width='600' alt='npm start'>  
-</p>  
