@@ -10,16 +10,16 @@ You need to configure your own GraphQL server or serverless, I recommend using s
 ## Get Started  
 First clone the project then install the dependencies.
 ```sh  
-    git clone https://github.com/Sh4reef/my-react-relay-starter-kit.git
-    cd my-react-relay-starter-kit
-    npm install
+git clone https://github.com/Sh4reef/my-react-relay-starter-kit.git
+cd my-react-relay-starter-kit
+npm install
 ```  
 Next you need to install [get-graphql-schema](https://www.npmjs.com/package/get-graphql-schema) globally, We use this to get `schema.graphql` file from GraphQL API endpoint, Here I used my GraphQL API endpoint for demonstration.
 ```sh
-	npm install -g get-graphql-schema
-	get-graphql-schema https://api.graph.cool/relay/v1/sh4reef > ./schema.graphql
+npm install -g get-graphql-schema
+get-graphql-schema https://api.graph.cool/relay/v1/sh4reef > ./schema.graphql
 ```
-  You should see `schema.graphql` file inside `my-react-relay-starter-kit` folder.
+You should see `schema.graphql` file inside `my-react-relay-starter-kit` folder.
   
 
 
